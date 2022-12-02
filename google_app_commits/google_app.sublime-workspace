@@ -1,0 +1,609 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"feat",
+				"feature_names_in_"
+			],
+			[
+				"Logistic",
+				"LogisticRegression"
+			],
+			[
+				"fe",
+				"feature_importances_"
+			],
+			[
+				"model",
+				"sklearn.model_selection"
+			],
+			[
+				"class",
+				"classification_report"
+			],
+			[
+				"pred",
+				"predict_proba"
+			],
+			[
+				"value",
+				"value_counts"
+			],
+			[
+				"label",
+				"labels_clustering"
+			],
+			[
+				"pipe_",
+				"pipe_2d"
+			],
+			[
+				"clu",
+				"cluster_plot_featDist"
+			],
+			[
+				"clusterin",
+				"clustering呢"
+			],
+			[
+				"as",
+				"astype"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"n_c",
+				"n_clusters"
+			],
+			[
+				"P",
+				"Pipeline"
+			],
+			[
+				"pc",
+				"PCA"
+			],
+			[
+				"spec",
+				"SpectralClustering"
+			],
+			[
+				"clm",
+				"clmRatio"
+			],
+			[
+				"Ba",
+				"bar"
+			],
+			[
+				"pre",
+				"predict_proba"
+			],
+			[
+				"5",
+				"25"
+			],
+			[
+				"n",
+				"n_components"
+			],
+			[
+				"pipe",
+				"pipe_dsb"
+			],
+			[
+				"sa",
+				"savefig"
+			],
+			[
+				"lin",
+				"linspace"
+			],
+			[
+				"fit",
+				"fit_predict"
+			],
+			[
+				"p",
+				"plotly"
+			],
+			[
+				"q",
+				"qualitative"
+			],
+			[
+				"Pro",
+				"PROJECT_PATH"
+			],
+			[
+				"X_tra",
+				"X_train_transformed"
+			],
+			[
+				"n_",
+				"n_clusters="
+			],
+			[
+				"Data",
+				"DataFrameMapper"
+			],
+			[
+				"pro",
+				"PROJECT_PATH"
+			],
+			[
+				"DATA",
+				"DATA_PLY_PATH"
+			],
+			[
+				"in",
+				"\\invv"
+			],
+			[
+				"def",
+				"def\tFunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"list",
+				"Helium: List Kernels"
+			],
+			[
+				"dis",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"disap",
+				"Package Control: Disable Package"
+			],
+			[
+				"csv",
+				"CSV: Justify columns"
+			],
+			[
+				"boo",
+				"Bookmarks: Select All"
+			],
+			[
+				"ipy",
+				"Open IPython Notebook"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"int",
+				"Helium: Interrupt Kernel"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"lsit",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"csv s",
+				"CSV: Set delimiter"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inter",
+				"Helium: Interrupt Kernel"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"li",
+				"Helium: List Kernels"
+			],
+			[
+				"l",
+				"Helium: List Kernels"
+			],
+			[
+				"lis",
+				"Helium: List Kernels"
+			],
+			[
+				"con",
+				"Helium: Connect Kernel"
+			],
+			[
+				"co",
+				"Helium: Connect Kernel"
+			],
+			[
+				"conn",
+				"Helium: Connect Kernel"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"disa",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"in",
+				"Helium: Interrupt Kernel"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"git add ",
+				"Git: Add All"
+			],
+			[
+				"ga",
+				"Git: Add..."
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git init",
+				"Git: Init"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"git s",
+				"Set Syntax: Git Mailmap"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"doc",
+				"Anaconda: Display object docs"
+			],
+			[
+				"heli",
+				"Helium: Connect Kernel"
+			],
+			[
+				"heliun",
+				"Helium: Connect Kernel"
+			],
+			[
+				"anacond",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"",
+				"Anaconda: Vagrant Enable"
+			],
+			[
+				"unicon",
+				"Set Syntax: Unicon"
+			],
+			[
+				"uni",
+				"UnicodeNormalizer: Select"
+			],
+			[
+				"error",
+				"Anaconda: Show error list"
+			],
+			[
+				"err",
+				"Anaconda: Show error list"
+			],
+			[
+				"helium",
+				"Helium: Connect Kernel"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"anaconda",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"anaconda d",
+				"Anaconda: Display object docs"
+			],
+			[
+				"shoe",
+				"Anaconda: Show error list"
+			],
+			[
+				"auto",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"HELIUM",
+				"Helium: Connect Kernel"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.857147217,
+		"history":
+		[
+			"git",
+			"quit()",
+			"1 + 2",
+			"a+b",
+			"b = 2",
+			"a = 1"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Dev/google_app"
+	],
+	"file_history":
+	[
+		"/D/新安/2022 客戶分群/data/research/classification_report_RF-AE.txt",
+		"/D/新安/2022 客戶分群/data/research/classification_report_RF.txt",
+		"/D/新安/2022 客戶分群/data/research/classification_report_Logistic.txt",
+		"/D/新安/2022 客戶分群/data/research/classification_report.txt",
+		"/D/新安/2022 客戶分群/src/clustering.py",
+		"/D/新安/2022 客戶分群/README.md",
+		"/D/新安/2022 客戶分群/img/research/feat_dist_KM.png",
+		"/D/新安/2022 客戶分群/img/research/choices_DBSCAN_eps.png",
+		"/C/sublime_text_build_4143_x64/Data/Packages/User/Helium.sublime-settings",
+		"/D/新安/2022 客戶分群/img/research/choices_pp_PCA_nComponents.png",
+		"/D/新安/2022 客戶分群/img/research/choices_pp_PCA_Kmeans.png",
+		"/D/Dev/ml_tools/setup.py",
+		"/C/sublime_text_build_4143_x64/Data/Packages/UnicodeCharacterInsert/Default.sublime-keymap",
+		"/C/sublime_text_build_4143_x64/Data/Packages/Git/Git.sublime-settings",
+		"/C/sublime_text_build_4143_x64/Data/Packages/User/Git.sublime-settings",
+		"/D/新安/2022 客戶分群/data/research/cluster/choices_DBSCAN_eps.pkl",
+		"/C/Program Files/Python39/Lib/site-packages/networkx/drawing/nx_pydot.py",
+		"/D/新安/2022 客戶分群/data/id_des.csv",
+		"/D/新安/關聯客戶/src/preprocess.py",
+		"/C/sublime_text_build_4143_x64/Data/Packages/Helium/Helium.sublime-settings",
+		"/D/新安/關聯客戶/test.py"
+	],
+	"find":
+	{
+		"height": 40.5714285714
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"default_dir": "D:\\新安\\2022 營業異常偵測\\src",
+							"rainbow_checked": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 69.7142857143
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "google_app.sublime-project",
+	"replace":
+	{
+		"height": 52.5714285714
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"class",
+				"data\\research\\classification_report_RF-AE.txt"
+			],
+			[
+				"clas",
+				"data\\research\\classification_report_RF.txt"
+			],
+			[
+				"cla",
+				"data\\research\\classification_report.txt"
+			],
+			[
+				"",
+				"src\\clustering.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 213.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
