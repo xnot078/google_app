@@ -1,7 +1,5 @@
-__verson__ = "1.0.1"
+__verson__ = "1.0.0"
 
-__all__ = [
-    "version",
-]
+__all__ = []
 
 from .get_info import *
