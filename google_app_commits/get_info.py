@@ -6,7 +6,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 # basic
-import time, random, re, datetime, os, tqdm
+import time, random, re, datetime, os
 import pandas as pd
 # typing
 from typing import Optional, List
@@ -22,7 +22,7 @@ def InitDriver(webdrive_path = './chromedriver.exe',
     	chrome_options.add_argument("incognito")
     if headless:
     	chrome_options.add_argument("--headless")
-    Driver = webdriver.Chrome(r"C:\selenium_driver\chrome\chromedriver.exe", chrome_options = chrome_options)
+    Driver = webdriver.Chrome(webdrive_path, chrome_options = chrome_options)
     Driver.implicitly_wait(0.5)
     return Driver
 

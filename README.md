@@ -3,9 +3,13 @@
 取得指定google app在stor中的資訊
 
 ## 安裝
+1. install:
 ```
-$ pip install git+
+$ pip install git+https://github.com/xnot078/google_app_commits.git
 ```
+2. webdriver:
+在[這裡](https://chromedriver.chromium.org/downloads)下載和本機的chrome同版本的webdriver，並解壓縮到安裝的資料夾
+(python的資料夾路徑/Lib/site-packages/google_app_commits中)
 
 ## 資料:
 * app_info:
@@ -27,6 +31,8 @@ $ pip install git+
 
 ## 使用:
 ```python
+from google_app_commits import *
+
 # 如果 headless = True, 不顯示webdriver視窗
 driver = InitDriver(headless = False)
 # 指定app的網址
