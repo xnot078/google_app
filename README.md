@@ -31,15 +31,15 @@ $ pip install git+https://github.com/xnot078/google_app_commits.git
 
 ## 使用:
 ```python
-from google_app_commits import *
+import google_app_commits as gc
 
 # 如果 headless = True, 不顯示webdriver視窗
-driver = InitDriver(headless = False)
+driver = gc.InitDriver(headless = False)
 # 指定app的網址
 url = 'https://play.google.com/store/apps/details?id=com.hilai.hilaifoods'
 
 # 宣告一個實例
-app1 = app_detail(url = url, driver = driver)
+app1 = gc.app_detail(url = url, driver = driver)
 
 # 簡易執行
 app1.go()
