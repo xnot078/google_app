@@ -133,14 +133,23 @@ class app_detail:
             return None
 
         ele_popup = self.__find_element(driver.find_element, By.XPATH, popup_pattern)
-        assert ele_popup is not None; common.NoSuchElementException(f"{popup_pattern} not founc.")
-
+        if ele_popup is None:
+            raise ValueError(f"{popup_pattern} not founc.")
+  
+        new_cnt = __cnt_commits(ele_popup)
         cn_commits = 0
-        loop = 0
-        while ((new_cnt:=__cnt_commits(ele_popup)) is not None and cn_commits < new_cnt) and loop <= limits:
+        loop = 0 # "滾到底載入更多" 達到limits次，停止
+        stop_times = 0 # 往下捲不一定會觸發"滾到底載入更多"，往下滾5次還碰不到底，就當作真的到底了，停止
+        # (如果有滾出新東西 or 雖然沒滾出新東西可是還沒到5次) and (達到設定的"滾到底載入更多"次數)
+        while ((new_cnt is not None) and (new_cnt > cn_commits) or (stop_times < 5)) and loop <= limits:
+            cn_commits = __cnt_commits(ele_popup) # 往下卷"之前"有多少評論?
             driver.execute_script('arguments[0].scrollTop = arguments[0].scrollTop + arguments[0].offsetHeight*1000;', ele_popup)
-            cn_commits = new_cnt
-            loop += 1
+            new_cnt = __cnt_commits(ele_popup) # 往下卷"之後"有多少評論?
+            if new_cnt > cn_commits:
+                stop_times = 0
+                loop += 1
+            else:
+                stop_times += 1
         return self
 
     def press_esc(self):
@@ -212,6 +221,8 @@ if __name__ == '__main__':
 
     # 簡易執行
     app1.go()
+    
+# %%
     # 結果: 店家資訊
     app1.app_info
     type(app1.app_info)
@@ -241,3 +252,13 @@ if __name__ == '__main__':
     app1.press_esc()
 
 # %%
+len(app1.commits)
+
+# %%
+ele_popup = driver.find_element(By.XPATH, "//div[@jsname = 'bN97Pc']")
+
+cn_commits = 0
+loop = 0
+while new_cnt is not None and new_cnt > cn_commits and loop <= limits:
+    driver.execute_script('arguments[0].scrollTop = arguments[0].scrollTop + arguments[0].offsetHeight*1000;', ele_popup)
+            
